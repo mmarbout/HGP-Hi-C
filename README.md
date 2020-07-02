@@ -95,5 +95,7 @@ step8: recursive procedure
 
 the script will extract subnetwork of each targeted bin and perform a louvain recursive procedure on them. you have to provide a file containing the different concerned bins.
 
-> bash 7_recursive.sh 
+> bash 7_recursive.sh "sample" "file with the tageted bin" "recursive iterations" "intitial iteration" "overlapping threshold" "network" "assembly"
+
+> bash 7_recursive.sh 10015 10 100 90 10015/network/10015_network_norm.txt 10015/assembly/10015_500.fa
 
