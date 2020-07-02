@@ -1,6 +1,23 @@
 # HGP-Hi-C
 Hi-C human gut microbiome
 
+# 1 - Datasets 
+you will find 4 files containing data about MAGs, Bins, Contigs and Phages chaactcerized in our study.
+
+MAGs data 
+Tabular file containing data about the characterized MAGs: sample, bin id, bin size, bin mean GC content, bin mean coverage, bin abundancy, taxonomy (7 levels), completion, contamination, contigs number, N50, mean contig size, longest contig, coding density.
+
+bins data
+Tabular file containing data about all the characterized bins above 10 Kb: sample, bin id, bin size, bin mean GC content, bin mean coverage.
+
+contigs data
+Tabular file containing data about all the binned contigs above 500 bp: sample, contig id, contig size, contig coverage, contig GC content, associated bin.
+
+phages contigs data
+Tabular file containing data about all the phages’ contigs above 500 bp: sample, contig id, associated bin, category
+
+# 2 - Scripts
+
 these set of scripts allow to reproduce data generated in the publication : Marbouty et al.
 
 "Phages - bacteria interactions network of the healthy human gut"
