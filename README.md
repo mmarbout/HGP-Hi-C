@@ -1,7 +1,8 @@
 # HGP-Hi-C
 
 publication : MetaHiC phage bacteria infection network reveal active cycling phages of the healthy human gut
-Martial Marbouty1, Agnès Thierry, Gaël A. Millot & Romain Koszul
+
+Martial Marbouty, Agnès Thierry, Gaël A. Millot & Romain Koszul
 
 # 1 - Datasets 
 you will find 3 files containing data about MAGs, Contigs and Phages characterized in our study.
@@ -20,6 +21,8 @@ Comma separated file containing data about all the phages’ contigs associated 
 
 these set of scripts allow to reproduce data generated in the publication : Marbouty et al.
 
+(example using sample 10015 are provided)
+
 "Phages - bacteria interactions network of the healthy human gut"
 
 dependencies:
@@ -37,7 +40,7 @@ dependencies:
 -python3 (biopython, numpy, scipy, matplotlib
 
 
-Step 1: Generation of Human gut assemblies
+Step 1: Generation of Human gut assemblies (all assemblies can be found on the NCBI - PRJNA627086)
 
 each dataset has been treated the same way
 
