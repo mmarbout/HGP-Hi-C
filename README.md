@@ -1,8 +1,10 @@
 # HGP-Hi-C
-Hi-C human gut microbiome
+
+publication : MetaHiC phage bacteria infection network reveal active cycling phages of the healthy human gut
+Martial Marbouty1, Agnès Thierry, Gaël A. Millot & Romain Koszul
 
 # 1 - Datasets 
-you will find 3 files containing data about MAGs, Contigs and Phages chaactcerized in our study.
+you will find 3 files containing data about MAGs, Contigs and Phages characterized in our study.
 
 Supplementary Dataset 1: MAGs data 
 Comma separated file containing data about the characterized MAGs: sample, bin id, bin size, bin mean GC content, bin mean coverage, taxonomy (7 levels), completion, contamination, contigs number, N50, mean contig size, longest contig, coding density.
